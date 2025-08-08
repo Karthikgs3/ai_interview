@@ -1,0 +1,13 @@
+import { text } from "drizzle-orm/gel-core";
+import { pgTable, serial, varchar } from "drizzle-orm/pg-core";
+
+export const MockInterview=pgTable('mockInterview',{
+    id:serial('id').primaryKey(),
+    jsonMockResp:text('jsonMockResp').notNull(),
+    jobPosition:varchar('jobPosition').notNull(),
+    jobDesc:varchar('jobDesc').notNull(),
+    jobExperience:varchar('jobExperience').notNull(),
+    createdBy:varchar('createdBy').notNull(),
+    createdAt:text('createdAt').notNull(),
+    mockId:varchar('mockId').notNull()
+})
