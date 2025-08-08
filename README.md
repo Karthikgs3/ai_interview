@@ -19,7 +19,7 @@ Prepare for your dream job with personalized interview questions, AI feedback, a
 
 ## Tech Stack
 
-- [Next.js 13](https://nextjs.org/) (App Router, Server & Client Components)  
+- [Next.js 15](https://nextjs.org/) (App Router, Server & Client Components)  
 - [Tailwind CSS](https://tailwindcss.com/)  
 - [Clerk](https://clerk.com/) for authentication  
 - React hooks and context for state management  
